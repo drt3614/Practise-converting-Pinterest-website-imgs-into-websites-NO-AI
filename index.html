@@ -1,26 +1,84 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>copy practise</title>
-</head>
-<body>
-	<nav>
-	<p>Tilaftee</p>
-	<p><a href="">Home</a></p>
-	<p><a href="">Management</a></p>
-	<p><a href="">Buy</a></p>
-	<p><a href="">About</a></p>
-	<p><a href="">Pricing</a></p>
-	<p>Login</p>
-	<button class="text-btn" type="button">Sign Up</button> 
-	</nav>
-	<section>
-	<h2>Discover A Place You'll Love to Live</h2>
-	<p>Find comfort in the house  with us, want to find a home? we are ready 	to help you wholeheartedly based on what you need</p>
-	<button class="text-btn" type="button">Get started</button> 
-	</section>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>copy practise</title>
+		<style>
+			:root {
+				--background: #173744;
+				--text-colour: #F0F5F3;
+				--btn-background: #0DA465;
+			}
+			body {
+				background-color: var(--background);
+				color: var(--text-colour);
+			}
+			
+			header {
+				height: 500px;
+				background-image: url('header.jpeg');
+				background-repeat: no-repeat;
+				background-position: center;
+				background-size: cover;
+			}
+			
+			header section {
+				text-align: center;
+			}
+			
+			.text-btn {
+				background-color: var(--btn-background);
+				color: var(--text-colour);
+				border: 0px;
+				border-radius: 10px;
+				margin-left: 10px;
+				padding: 8px 20px;
+			}
+
+			nav {
+				display: flex;
+				padding-top: 50px;
+				justify-content: center;
+			}
+
+			.nav {
+				display: flex;
+				padding-left: 80px;
+				padding-right: 80px;
+			}
+
+			.nav a {
+				padding: 10px 10px;
+				color: var(--text-colour);
+			}
+
+			nav a{
+				color: var(--text-colour);
+				text-decoration: none;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav>
+				<p><b>Tilaftee</b></p>
+				<div class="nav">
+					<p><a href=""><b>Home</b></a></p>
+					<p><a href="">Management</a></p>
+					<p><a href="">Buy</a></p>
+					<p><a href="">About</a></p>
+					<p><a href="">Pricing</a></p>
+				</div>
+				<p><b>Log in</b></p>
+				<button class="text-btn" type="button">Sign Up</button>
+			</nav>
+			<section>
+				<h2>Discover A Place You'll <br>Love to Live</h2>
+				<p>Find comfort in the house with us, want to find a home? we 				are ready to help you <br>wholeheartedly based on what you 				need</p>
+				<button class="text-btn" type="button">Get Started</button>
+			</section>
+		</header>
+	</body>
 </html>
